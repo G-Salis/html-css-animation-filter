@@ -9,7 +9,6 @@
   background-color: red;
 }
 
-
 .ex-2-square{
   transition: all 3s;
 }
@@ -32,7 +31,6 @@
 
 .ex-4-square:hover{
   background-color: #F5F5F5;
-  border: 1px solid #F5F5F5;
 }
 
 .ex-5-square{
@@ -106,16 +104,20 @@
     transform: rotate(280deg);
   }
 
-    0% {
+    100% {
     transform: rotate(0deg);
   }
  }
 
+ .ex-12-top-white{
+   transition: 0%;
+ }
+
  .ex-12-button:hover .ex-12-top-white{
-  animation: line_top 5s linear;
+    right: 50%;
  }
  
- @keyframes line_top{
+ /* @keyframes line_top{
     0% {
      right: 10px;
    }
@@ -127,4 +129,4 @@
     0% {
       right: 10px;
   }
- }
+ } */
